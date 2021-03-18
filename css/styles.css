@@ -32,6 +32,60 @@ nav {
   color: black;
 }
 
+@media (min-width: 992px) {
+  #dropdown-menu-pages {
+    padding: 0;
+    width: 700px;
+    left: auto;
+    right: 0;
+  }
+}
+#dropdown-menu-pages .col-5 {
+  background-color: blue;
+  position: relative;
+}
+#dropdown-menu-pages .col-5::before {
+  background-image: url("../img/bg-dropdown-xl.jpg");
+  background-size: cover;
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+#dropdown-menu-pages h6 {
+  color: blue;
+}
+#dropdown-menu-pages .col-7 a {
+  text-decoration: none;
+  color: black;
+}
+#dropdown-menu-pages .col-7 a:hover {
+  color: rgb(221, 207, 207);
+}
+#dropdown-menu-pages .col-7 {
+  padding: 2rem;
+}
+.text-white {
+  z-index: 4;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.text-white a {
+  border-radius: 5px;
+  padding: 0.4rem;
+  margin-top: 0.8rem;
+  color: blue;
+  background-color: white;
+}
+.text-white a:hover {
+  background-color: rgb(221, 207, 207);
+}
+
 #btnBuy {
   background-color: #05b28e;
   color: white;
