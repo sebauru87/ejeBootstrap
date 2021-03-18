@@ -146,3 +146,10 @@ footer .container {
 footer a {
   text-decoration: none;
 }
+
+.socialNet a {
+  margin: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #a7a9ad;
+}
