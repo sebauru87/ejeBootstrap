@@ -1,0 +1,148 @@
+body {
+  background-color: #f2f6fd;
+}
+
+.container {
+  max-width: 1000px;
+}
+.navbar {
+  padding: 15px;
+}
+nav {
+  margin-bottom: 3rem;
+  background-color: white;
+}
+.nav-link.show span {
+  transform: rotate(90deg);
+  transition: 0.2s;
+  display: inline-block;
+}
+
+#pagesNav {
+  width: 50vw;
+  padding: 15px;
+  align-items: left;
+}
+
+#pagesNav h6 {
+  color: blue;
+}
+#pagesNav a {
+  text-decoration: none;
+  color: black;
+}
+
+#btnBuy {
+  background-color: #05b28e;
+  color: white;
+}
+
+#bodyColor {
+  background-color: #f2f6fc;
+  /* margin-bottom: 50px; */
+}
+
+#card {
+  box-shadow: 0px 0px 19px -1px rgba(0, 0, 0, 0.38);
+  border-radius: 6px;
+}
+
+.col-md-6.img {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.badge {
+  background-color: #acc9f6;
+}
+
+.col-md-6.img {
+  background-image: url("https://source.unsplash.com/npxXWgQ33ZQ/1200x800");
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+#topStories img {
+  border: 1px solid #ddd; /* thickness and color of border */
+  border-radius: 4px; /* edge rounding of border */
+  width: 80px; /* width of image (px or % or auto) */
+  height: 80px;
+}
+
+#opiniones {
+  box-shadow: 0px 0px 19px -1px rgba(0, 0, 0, 0.38);
+  height: fit-content;
+  border-radius: 6px;
+  padding-top: 10px;
+}
+
+#opiniones img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+#opiniones a {
+  text-decoration: none;
+  color: black;
+}
+
+#opiniones a:hover {
+  text-decoration: underline;
+}
+
+#opiniones p {
+  color: gray;
+}
+#opiniones p a {
+  color: gray;
+}
+
+#news a {
+  text-decoration: none;
+  color: black;
+}
+#news p {
+  color: grey;
+  font-size: 80%;
+}
+#news a:hover {
+  text-decoration: underline;
+}
+
+#form {
+  position: relative;
+  bottom: -40px;
+  z-index: 4;
+}
+
+#form input {
+  background-color: #eef2f8;
+}
+
+footer {
+  background-color: #202832;
+  position: relative;
+  width: 100%;
+  color: #a7a9ad;
+  padding-top: 80px;
+}
+
+footer::before {
+  content: "";
+  height: 50px;
+  width: 100%;
+  background: transparent url(../img/waveGrey.svg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+
+footer .container {
+  padding-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
